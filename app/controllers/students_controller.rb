@@ -6,6 +6,8 @@ class StudentsController < ApplicationController
   end
 
   def show
+    @student = Post.find(params[:id])
+
   end
 
   private
